@@ -76,6 +76,44 @@ public class MySinglyLinkedList {
         return -1;
     }
 
-    //Tasj
+    //Task 1
+    // The size of list is unknown
+    // Find the Kth element from the last and print it in one pass
+
+    public int getKthFromLast(int k){
+        Node prt1=head;
+        Node prt2=head;
+        for (int i=0;i<k;i++) {
+            prt2=prt2.next;
+            if(prt2==null) return -1;
+        }
+        while (prt2.next!=null){
+            prt1=prt1.next;
+            prt2=prt2.next;
+        }
+        return prt1.value;
+    }
+
+    //task2
+
+    public void removeKthFromLast(int k){
+        Node prevDelete=null;
+        Node prt1=head;
+        Node prt2=head;
+        for (int i=0;i<k;i++) {
+            prt2=prt2.next;
+            if(prt2==null) System.out.println("No such a element in the collection");;
+        }
+        while (prt2.next!=null){
+            prt1=prt1.next;
+            prt2=prt2.next;
+        }
+        if(prt1==head) {head=prt1.next; prt1.next=null; size--;}
+        else {
+            prevDelete.next=prt1.next;
+            prt1.next=null;
+        }
+    }
+
 
 }

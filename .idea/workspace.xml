@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="Problem Solutions added">
-      <change afterPath="$PROJECT_DIR$/_02-LinkedList/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02-LinkedList/src/main/java/org/example/LinkedListApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02-LinkedList/src/main/java/org/example/MyNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02-LinkedList/src/main/java/org/example/MySinglyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02-LinkedList/src/main/java/org/example/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_02-LinkedList/src/main/java/org/example/NodeExampleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="Singly Linked List">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02-LinkedList/src/main/java/org/example/MySinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02-LinkedList/src/main/java/org/example/MySinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +153,7 @@
       <workItem from="1689982918601" duration="2495000" />
       <workItem from="1690290827473" duration="16542000" />
       <workItem from="1690421336370" duration="4030000" />
-      <workItem from="1690547495427" duration="6650000" />
+      <workItem from="1690547495427" duration="7537000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689982980049</created>
@@ -191,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690421378587</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Singly Linked List">
+      <created>1690554536114</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690554536114</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Singly Linked List">
+      <created>1690554578821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690554578821</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +206,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Problem Solutions added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem Solutions added" />
+    <MESSAGE value="Singly Linked List" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singly Linked List" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
