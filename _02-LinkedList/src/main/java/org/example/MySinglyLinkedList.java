@@ -116,4 +116,65 @@ public class MySinglyLinkedList {
     }
 
 
-}
+    //Homework
+    //Task 1
+    public void reverse(){
+        Node current = head.next;
+        Node prev = head;
+
+        while (current!=null) {
+            Node nextNode = current.next;
+            current.next=prev;
+            prev = current;
+            current = nextNode;
+        }
+        tail=head;
+        tail.next=null;
+        head=prev;
+    }
+
+
+
+    // Task 2
+    public void removeDuplicates() {
+        if (isEmpty()) System.out.println("No values with the value send!!");
+
+        Node current = head;
+        Node prev = head;
+        while (current != null) {
+            if (current.value == current.next.value) {
+                if (current == head) {
+                    head = current.next;
+                    current.next = current.next.next;
+                } else if (current == tail) {
+                    tail = prev;
+                    prev.next = prev.next.next;
+                } else {
+                    prev.next = current.next;
+                    current.next = current.next.next;
+                }
+                size--;
+            }
+            prev = current;
+            current = current.next;
+
+        }
+    }
+
+    public void removeDuplicates2() {
+        Node current = head;
+        while (current != null){
+            Node nextDistinctNode = current.next;
+            while (nextDistinctNode != null && nextDistinctNode.value == current.value){
+                nextDistinctNode = nextDistinctNode.next;
+            }
+            current.next = nextDistinctNode;
+            current = nextDistinctNode;
+        }
+
+        }
+
+    }
+
+
+
