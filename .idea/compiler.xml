@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="_01-Arrays" />
+        <module name="_01-LinkedList" />
         <module name="_00-BigONotion" />
       </profile>
     </annotationProcessing>
