@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="_01-Arrays" />
         <module name="_01-LinkedList" />
+        <module name="_03-Stacks" />
         <module name="_00-BigONotion" />
       </profile>
     </annotationProcessing>
