@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="Expression Balance check">
-      <change afterPath="$PROJECT_DIR$/_15-AlgorithmQuestions/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15-AlgorithmQuestions/src/main/java/org/example/Assignment5SunSetView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="Algorithmic Questions added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +159,7 @@
       <workItem from="1690421336370" duration="4030000" />
       <workItem from="1690547495427" duration="19949000" />
       <workItem from="1690656484477" duration="6114000" />
-      <workItem from="1690752458521" duration="5041000" />
+      <workItem from="1690752458521" duration="5945000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689982980049</created>
@@ -266,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690761529586</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Algorithmic Questions added">
+      <created>1690765251451</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690765251451</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +280,7 @@
     <MESSAGE value=" Linked List" />
     <MESSAGE value="Custom Stack Collection" />
     <MESSAGE value="Expression Balance check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expression Balance check" />
+    <MESSAGE value="Algorithmic Questions added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithmic Questions added" />
   </component>
 </project>
