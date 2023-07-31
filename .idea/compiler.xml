@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="_15-AlgorithmQuestions" />
         <module name="_01-Arrays" />
         <module name="_01-LinkedList" />
         <module name="_03-Stacks" />
