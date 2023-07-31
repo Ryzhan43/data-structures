@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="Algorithmic Questions added" />
+    <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="Assignments 0-5">
+      <change afterPath="$PROJECT_DIR$/_15-AlgorithmQuestions/src/main/java/org/example/Assignment2SpiralTraverseRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15-AlgorithmQuestions/src/main/java/org/example/Assignment3RemoveDuplicatesFromLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15-AlgorithmQuestions/src/main/java/org/example/Assignment4ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15-AlgorithmQuestions/src/main/java/org/example/MySinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15-AlgorithmQuestions/src/main/java/org/example/Node.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,7 +165,7 @@
       <workItem from="1690421336370" duration="4030000" />
       <workItem from="1690547495427" duration="19949000" />
       <workItem from="1690656484477" duration="6114000" />
-      <workItem from="1690752458521" duration="5945000" />
+      <workItem from="1690752458521" duration="6257000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689982980049</created>
@@ -266,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690765251451</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Assignments 0-5">
+      <created>1690766065604</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690766065604</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +294,7 @@
     <MESSAGE value="Custom Stack Collection" />
     <MESSAGE value="Expression Balance check" />
     <MESSAGE value="Algorithmic Questions added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algorithmic Questions added" />
+    <MESSAGE value="Assignments 0-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignments 0-5" />
   </component>
 </project>
