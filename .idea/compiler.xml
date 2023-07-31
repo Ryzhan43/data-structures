@@ -11,6 +11,7 @@
         <module name="_01-LinkedList" />
         <module name="_03-Stacks" />
         <module name="_04-Recursion" />
+        <module name="_05-Queues" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
