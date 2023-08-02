@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/_00-BigONotion/_06-Threes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_00-BigONotion/_06-Threes/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_00-BigONotion/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_00-BigONotion/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_01-Arrays/src/main/java" charset="UTF-8" />
@@ -13,8 +15,8 @@
     <file url="file://$PROJECT_DIR$/_04-Recursion/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_05-Queues/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_05-Queues/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/_06-Hash/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/_06-Hash/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_06-Trees/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_06-Trees/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_15-AlgorithmQuestions/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_15-AlgorithmQuestions/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

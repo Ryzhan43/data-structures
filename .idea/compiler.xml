@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="_15-AlgorithmQuestions" />
+        <module name="_06-Trees" />
         <module name="_04-Recursion" />
         <module name="_01-Arrays" />
-        <module name="_01-LinkedList" />
         <module name="_03-Stacks" />
-        <module name="_06-Hash" />
+        <module name="_02-LinkedList" />
         <module name="_05-Queues" />
       </profile>
     </annotationProcessing>

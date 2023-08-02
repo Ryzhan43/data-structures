@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="Queues Added">
-      <change afterPath="$PROJECT_DIR$/_15-AlgorithmQuestions/src/main/java/org/example/AlgoQuestion3MergingIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15-AlgorithmQuestions/src/main/java/org/example/TaskLongestRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06-Threes/src/main/java/org/example/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06-Threes/src/main/java/org/example/NyThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06-Threes/src/main/java/org/example/TreeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06-Threes/src/main/java/org/example/Trunk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06-Threes/src/main/java/org/example/VisualizeTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02-LinkedList/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_02-LinkedList/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06-Hash/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_06-Threes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_06-Hash/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,25 +54,25 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ryzha/data-structures/_15-AlgorithmQuestions&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_opened_file_path": "C:/Users/ryzha/data-structures/_06-Threes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ryzha\data-structures\_01-Arrays\src\main\java\org\example" />
@@ -89,7 +94,7 @@
     </configuration>
     <configuration name="LinkedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.LinkedListApp" />
-      <module name="_01-LinkedList" />
+      <module name="_02-LinkedList" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -102,7 +107,7 @@
     </configuration>
     <configuration name="NodeExampleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.NodeExampleApp" />
-      <module name="_01-LinkedList" />
+      <module name="_02-LinkedList" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -165,6 +170,7 @@
       <workItem from="1690656484477" duration="6114000" />
       <workItem from="1690752458521" duration="8575000" />
       <workItem from="1690846449173" duration="4572000" />
+      <workItem from="1690991180817" duration="1005000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689982980049</created>
