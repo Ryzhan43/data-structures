@@ -18,8 +18,8 @@ public class TreeApp {
         System.out.println("Post-Order Traversal");
         tree.postOrderTraversal(tree.root);
         System.out.println();
-//        System.out.println("Breadth First Traversal");
-//        tree.levelOrderTraversal();
+        System.out.println("Breadth First Traversal");
+        tree.levelOrderTraversal();
 
         /*System.out.println();
         System.out.println("tree contains 6 is : " + tree.contains(6));
