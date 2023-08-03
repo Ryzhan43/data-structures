@@ -127,6 +127,7 @@ public class MyTree {
 
     }
 
+//Assignment 8
     public int calculateSumNodeDepths(){
         return nodeDepthSum(root,0);
     }
