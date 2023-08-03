@@ -96,12 +96,43 @@ public class MyTree {
         return node.rightChild==null && node.leftChild==null;
     }
 
-// Task - 3: print the leafs
-    public void printLeafs(Node node){
+    // Task - 3: print the leaves
+    public void printLeaves(Node node){
         if(root==null) return;
         if(isLeaf(root)) System.out.println(root.value+", ");
-        printLeafs(root.leftChild);
-        printLeafs(root.rightChild);
+        printLeaves(root.leftChild);
+        printLeaves(root.rightChild);
     }
 
+// Task - 4: count the leaves
+    public int countLeaves(Node node){
+        if(root==null) return 0;
+
+        if(isLeaf(root)) return 1;
+        return countLeaves(root.rightChild) + countLeaves(root.leftChild);
+    }
+// Task - 5: count the leaves
+    public int findSumLeaves(Node node){
+        if(root==null) return 0;
+
+        if(isLeaf(root)) return 1;
+        return findSumLeaves(root.rightChild) + findSumLeaves(root.leftChild);
+    }
+
+// Task 6: height of a node in a BST
+    public int height(Node root){
+        if(root==null)return -1;
+        if(isLeaf(root)) return 0;
+        return 1+Math.max(height(root.rightChild),height(root.leftChild));
+
+    }
+
+    public int calculateSumNodeDepths(){
+        return nodeDepthSum(root,0);
+    }
+
+    private int nodeDepthSum(Node root, int sum) {
+        if(root==null) return 0;
+        return sum+nodeDepthSum(root.leftChild, sum+1) + nodeDepthSum(root.rightChild,sum+1);
+    }
 }
