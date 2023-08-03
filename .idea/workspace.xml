@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="Trees added">
+      <change afterPath="$PROJECT_DIR$/_07-Heaps/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07-Heaps/src/main/java/org/example/HeapMainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07-Heaps/src/main/java/org/example/MyHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_06-Trees/src/main/java/org/example/MyTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/_06-Trees/src/main/java/org/example/MyTree.java" afterDir="false" />
     </list>
@@ -72,7 +78,7 @@
       <recent name="C:\Users\ryzha\data-structures\_01-Arrays\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeApp">
+  <component name="RunManager" selected="Application.HeapMainApp">
     <configuration name="Assignment5SunSetView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Assignment5SunSetView" />
       <module name="_15-AlgorithmQuestions" />
@@ -86,9 +92,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.LinkedListApp" />
-      <module name="_02-LinkedList" />
+    <configuration name="HeapMainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HeapMainApp" />
+      <module name="_07-Heaps" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -99,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeExampleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.NodeExampleApp" />
+    <configuration name="LinkedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.LinkedListApp" />
       <module name="_02-LinkedList" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapMainApp" />
         <item itemvalue="Application.TreeApp" />
         <item itemvalue="Application.ReverseFirstKElementsQueue" />
         <item itemvalue="Application.Assignment5SunSetView" />
         <item itemvalue="Application.LinkedListApp" />
-        <item itemvalue="Application.NodeExampleApp" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +171,7 @@
       <workItem from="1690752458521" duration="8575000" />
       <workItem from="1690846449173" duration="4572000" />
       <workItem from="1690991180817" duration="9866000" />
-      <workItem from="1691076251820" duration="338000" />
+      <workItem from="1691076251820" duration="1780000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689982980049</created>
@@ -321,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691002844183</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Trees added">
+      <created>1691076596327</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1691076596327</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
