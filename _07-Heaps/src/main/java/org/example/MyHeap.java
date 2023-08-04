@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.NoSuchElementException;
+
 public class MyHeap {
     int[] items;
     int size;
@@ -7,6 +9,11 @@ public class MyHeap {
     public MyHeap(int capacity) {
         this.items = new int[capacity];
         this.size=0;
+    }
+
+    public int peek() {
+        if (size==0) throw new NoSuchElementException();
+        return items[0];
     }
 
     public void insert(int value){
@@ -24,6 +31,60 @@ public class MyHeap {
         }
     }
 
+    public int remove(){
+        if(size==0) throw new IllegalStateException();
+        else {
+            int result=items[0];
+            items[0]=items[--size];
+            bubbleDown();
+            return result;
+        }
+    }
+
+    private void bubbleDown() {
+        int largerChildIndex;
+        int index=0;
+        while (index<=size && !isValidParent(index)){
+            largerChildIndex=largerChildIndex(index);
+            swap(index, largerChildIndex);
+            index=largerChildIndex;
+        }
+    }
+
+    private int largerChildIndex(int index) {
+        if(!hasLeftChild(index)) return index;
+        else if(!hasRightChild(index)){
+            return leftChildIndex(index);
+        }
+        return items[leftChildIndex(index)]>items[rightChildIndex(index)] ? leftChildIndex(index):rightChildIndex(index);
+    }
+
+    private boolean isValidParent(int index) {
+        boolean isValid;
+        if(!hasLeftChild(index)) return true;
+        else {
+             isValid = items[index]>= items[leftChildIndex(index)];
+        }if(hasLeftChild(index)) {
+            isValid &=items[index]>=items[rightChildIndex(index)];
+        }
+        return isValid;
+    }
+
+    private boolean hasLeftChild(int index) {
+        return leftChildIndex(index)<=size;
+    }
+
+    private boolean hasRightChild(int index) {
+        return rightChildIndex(index)<=size;
+    }
+
+    private int leftChildIndex(int index) {
+        return index*2+1;
+    }
+    private int rightChildIndex(int index) {
+        return index*2+2;
+    }
+
     private void swap(int first, int second) {
         int temp=items[first];
         items[first]=items[second];
@@ -38,4 +99,6 @@ public class MyHeap {
             System.out.print(items[i] + ", ");
         }
     }
+
+
 }

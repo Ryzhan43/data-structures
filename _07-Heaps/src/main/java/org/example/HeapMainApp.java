@@ -12,5 +12,7 @@ public class HeapMainApp {
         heap.insert(83);
         heap.printHeap();
 
+        System.out.println("\n" + heap.remove() + " is removed and size is: " + heap.size);
+        heap.printHeap();
     }
 }
