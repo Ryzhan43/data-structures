@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="MyTree changed">
-      <change afterPath="$PROJECT_DIR$/_08-Search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-Search/src/main/java/org/example/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08-Search/src/main/java/org/example/LinearSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="Search added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08-Search/src/main/java/org/example/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/_08-Search/src/main/java/org/example/BinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +166,7 @@
       <workItem from="1690846449173" duration="4572000" />
       <workItem from="1690991180817" duration="9866000" />
       <workItem from="1691076251820" duration="3086000" />
-      <workItem from="1691167085093" duration="2744000" />
+      <workItem from="1691167085093" duration="3412000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689982980049</created>
@@ -355,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691176031140</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Search added">
+      <created>1691178173811</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1691178173811</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,6 +388,7 @@
     <MESSAGE value="Trees added" />
     <MESSAGE value="Heap added" />
     <MESSAGE value="MyTree changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyTree changed" />
+    <MESSAGE value="Search added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search added" />
   </component>
 </project>
