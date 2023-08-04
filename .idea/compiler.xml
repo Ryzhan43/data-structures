@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="_15-AlgorithmQuestions" />
         <module name="_06-Trees" />
+        <module name="_08-Search" />
         <module name="_04-Recursion" />
         <module name="_07-Heaps" />
         <module name="_01-Arrays" />
