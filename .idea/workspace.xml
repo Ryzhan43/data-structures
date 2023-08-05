@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="Search added">
+    <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="BinarySearch added">
+      <change afterPath="$PROJECT_DIR$/_08-Search/src/main/java/org/example/ExponentialSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-Search/src/main/java/org/example/JumpSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-Search/src/main/java/org/example/PerformanceCalculationOfSearchMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08-Search/src/main/java/org/example/TernarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_08-Search/src/main/java/org/example/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/_08-Search/src/main/java/org/example/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_08-Search/src/main/java/org/example/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/_08-Search/src/main/java/org/example/LinearSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +76,10 @@
       <recent name="C:\Users\ryzha\data-structures\_01-Arrays\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeapMainApp">
-    <configuration name="Assignment5SunSetView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Assignment5SunSetView" />
-      <module name="_15-AlgorithmQuestions" />
+  <component name="RunManager" selected="Application.PerformanceCalculationOfSearchMethods">
+    <configuration name="ExecTimeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ExecTimeApp" />
+      <module name="_08-Search" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -99,9 +103,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.LinkedListApp" />
-      <module name="_02-LinkedList" />
+    <configuration name="PerformanceCalculationOfSearchMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PerformanceCalculationOfSearchMethods" />
+      <module name="_08-Search" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -140,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PerformanceCalculationOfSearchMethods" />
+        <item itemvalue="Application.ExecTimeApp" />
         <item itemvalue="Application.HeapMainApp" />
         <item itemvalue="Application.TreeApp" />
         <item itemvalue="Application.ReverseFirstKElementsQueue" />
-        <item itemvalue="Application.Assignment5SunSetView" />
-        <item itemvalue="Application.LinkedListApp" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +171,7 @@
       <workItem from="1690991180817" duration="9866000" />
       <workItem from="1691076251820" duration="3086000" />
       <workItem from="1691167085093" duration="3412000" />
+      <workItem from="1691179707689" duration="5982000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689982980049</created>
@@ -357,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691178173811</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="BinarySearch added">
+      <created>1691179882248</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1691179882248</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +401,7 @@
     <MESSAGE value="Heap added" />
     <MESSAGE value="MyTree changed" />
     <MESSAGE value="Search added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search added" />
+    <MESSAGE value="BinarySearch added" />
+    <option name="LAST_COMMIT_MESSAGE" value="BinarySearch added" />
   </component>
 </project>
