@@ -5,12 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>_00-BigONotion</artifactId>
+    <artifactId>_10-Sotring</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>_10-Sorting</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>20</maven.compiler.source>

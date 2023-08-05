@@ -18,11 +18,13 @@
         <option value="$PROJECT_DIR$/_06-Trees/pom.xml" />
         <option value="$PROJECT_DIR$/_07-Heaps/pom.xml" />
         <option value="$PROJECT_DIR$/_08-Search/pom.xml" />
+        <option value="$PROJECT_DIR$/_10-Sotring/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/_00-BigONotion/_06-Threes/pom.xml" />
+        <option value="$PROJECT_DIR$/_00-BigONotion/_10-Sorting/pom.xml" />
       </set>
     </option>
   </component>
