@@ -11,7 +11,7 @@
         <module name="_08-Search" />
         <module name="_04-Recursion" />
         <module name="_07-Heaps" />
-        <module name="_10-Sotring" />
+        <module name="_10-Sorting" />
         <module name="_01-Arrays" />
         <module name="_03-Stacks" />
         <module name="_02-LinkedList" />
@@ -19,7 +19,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="_10-Sorting" target="20" />
       <module name="data-structures" target="20" />
       <module name="untitled" target="20" />
     </bytecodeTargetLevel>

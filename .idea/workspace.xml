@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="Searches processing time test">
-      <change afterPath="$PROJECT_DIR$/_10-Sotring/src/main/java/org/example/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-Sotring/src/main/java/org/example/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10-Sotring/src/main/java/org/example/SelectionSort.java" afterDir="false" />
+    <list default="true" id="70a6e566-5519-4d3a-bc62-443588058c9c" name="Changes" comment="Sorting added">
+      <change afterPath="$PROJECT_DIR$/_10-Sorting/src/main/java/org/example/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10-Sotring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_10-Sorting/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10-Sotring/src/main/java/org/example/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/_10-Sorting/src/main/java/org/example/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10-Sotring/src/main/java/org/example/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/_10-Sorting/src/main/java/org/example/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10-Sotring/src/main/java/org/example/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/_10-Sorting/src/main/java/org/example/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10-Sotring/src/main/java/org/example/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/_10-Sorting/src/main/java/org/example/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10-Sotring/target/classes/org/example/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/_10-Sorting/target/classes/org/example/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10-Sotring/target/classes/org/example/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/_10-Sorting/target/classes/org/example/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10-Sotring/target/classes/org/example/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/_10-Sorting/target/classes/org/example/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_10-Sotring/target/classes/org/example/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/_10-Sorting/target/classes/org/example/SelectionSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +110,7 @@
     </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.MergeSort" />
-      <module name="_10-Sotring" />
+      <module name="_10-Sorting" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -170,7 +177,7 @@
       <workItem from="1691076251820" duration="3086000" />
       <workItem from="1691167085093" duration="3412000" />
       <workItem from="1691179707689" duration="8159000" />
-      <workItem from="1691242668896" duration="4743000" />
+      <workItem from="1691242668896" duration="6315000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689982980049</created>
@@ -389,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691206707428</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Sorting added">
+      <created>1691252755658</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1691252755658</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,26 +439,7 @@
     <MESSAGE value="Searches added + performance test" />
     <MESSAGE value="Sorting part added" />
     <MESSAGE value="Searches processing time test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Searches processing time test" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/_10-Sotring/src/main/java/org/example/MergeSort.java</url>
-          <line>28</line>
-          <properties class="org.example.MergeSort" method="mergeArrays">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/_10-Sotring/src/main/java/org/example/MergeSort.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Sorting added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorting added" />
   </component>
 </project>
