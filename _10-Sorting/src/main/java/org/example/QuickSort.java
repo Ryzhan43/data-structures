@@ -1,6 +1,8 @@
 package org.example;
 
 public class QuickSort {
+
+
     public static void qSort(int[] array, int start, int end){
        if (start>=end) return; //termination
        int boundary=partition(array, start, end);
@@ -21,4 +23,6 @@ public class QuickSort {
         array[idx1]=array[idx2];
         array[idx2]=temp;
     }
+
+
 }
